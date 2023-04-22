@@ -1,7 +1,7 @@
 $(function () {
     // function to display day, date and time
     function displayTime() {
-        var rightNow = dayjs().format("dddd - MMM DD, YYYY - hh:mm:ss a");
+        let rightNow = dayjs().format("dddd - MMM DD, YYYY - hh:mm:ss a");
         $("#currentDay").text(rightNow);
     }
     displayTime();
@@ -9,8 +9,8 @@ $(function () {
 
     //applying an event listener on the save button
     $(".saveBtn").on("click", function () {
-        var key = $(this).parent().attr("id"); // this refers to the elements the function is tied to
-        var value = $(this).siblings("textarea").val();
+        let key = $(this).parent().attr("id"); // this refers to the elements the function is tied to
+        let value = $(this).siblings("textarea").val();
 
         // storing items in the local storage
         localStorage.setItem(key, value);
@@ -20,11 +20,11 @@ $(function () {
         $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
     }
      // using the each loop to apply color to each timeblock
-     var currentHour = dayjs().hour();
+     let currentHour = dayjs().hour();
      $(".time-block").each(function () {
        console.log(currentHour);
        // using parseInt to parses a string argument and returns an integer, using split to seperate the hour and the number
-       var timeBlock = parseInt($(this).attr("id").split("-")[1]);
+       let timeBlock = parseInt($(this).attr("id").split("-")[1]);
        if (timeBlock === currentHour) {
          //  present
          $(this).addClass("present");
