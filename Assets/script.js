@@ -16,6 +16,24 @@ $(function () {
         localStorage.setItem(key, value);
     });
     // applying a loop so that the description for all the hours is saved in the local storage
-    for (let i = 9; i < 18; i++) {
+    for (let i = 8; i < 17; i++) {
         $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
     }
+     // using the each loop to apply color to each timeblock
+     var currentHour = dayjs().hour();
+     $(".time-block").each(function () {
+       console.log(currentHour);
+       // using parseInt to parses a string argument and returns an integer, using split to seperate the hour and the number
+       var timeBlock = parseInt($(this).attr("id").split("-")[1]);
+       if (timeBlock === currentHour) {
+         //  present
+         $(this).addClass("present");
+       } else if (timeBlock > currentHour) {
+         // future
+         $(this).addClass("future");
+       } else {
+         // past
+         $(this).addClass("past");
+       }
+     });
+   });
