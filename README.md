@@ -8,5 +8,12 @@ About Work Day Scheduler app
 *User is presented with timeblocks for the day each timeblock being colour coded to indicate whether the event is past, present or future. 
 *User is able to save the event under preferred timeblock by clicking save button.
 *Once the page is refreshed , user is able to view the events saved under preferred colour coded time block 
+
+The URL of the functional, deployed application:
+https://meera-mohanan.github.io/Work-Day-Scheduler-Third-Party-API-Challenge/
+The URL of the GitHub repository. Give the repository a unique name and include a README describing the project:
+https://github.com/Meera-Mohanan/Work-Day-Scheduler-Third-Party-API-Challenge.git
+
+
 Screenshot of the page:
 ![Screenshot 2023-04-23 022516](https://user-images.githubusercontent.com/126405858/233800745-a3bd51e6-6934-431d-937f-c8f11a4615da.png)
