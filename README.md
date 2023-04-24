@@ -16,3 +16,4 @@ https://github.com/Meera-Mohanan/Work-Day-Scheduler-Third-Party-API-Challenge.gi
 
 Screenshot of the page:
 ![Picture1](https://user-images.githubusercontent.com/126405858/233891969-92fd8a50-4070-44cf-9712-07d939c4d08e.png)
+![Picture3](https://user-images.githubusercontent.com/126405858/233892043-3f6bc97f-66ac-4ae8-ae46-e8b9703aa36c.png)
