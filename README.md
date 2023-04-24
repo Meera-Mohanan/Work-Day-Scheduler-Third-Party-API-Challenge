@@ -15,5 +15,4 @@ The URL of the GitHub repository. Give the repository a unique name and include 
 https://github.com/Meera-Mohanan/Work-Day-Scheduler-Third-Party-API-Challenge.git
 
 Screenshot of the page:
-
-![Picture1](https://user-images.githubusercontent.com/126405858/233891819-c4acb601-0a80-4f0a-9677-b79c295d9420.png)
+![Picture1](https://user-images.githubusercontent.com/126405858/233891969-92fd8a50-4070-44cf-9712-07d939c4d08e.png)
